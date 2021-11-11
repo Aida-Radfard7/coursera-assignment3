@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mochiy+Pop+One&display=swap');
+
+*{
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 90px;
+    width: 100%;    
+    background-color: rgb(160, 160, 160);
+    border-bottom: 3px solid rgb(77, 76, 76);
+}
+
+.navbar-brand{
+    margin: 0;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.box{
+    background-color: darkgray;
+    padding: 20px;
+}
+
+.box .box-title h6{
+    font-size: 22px;
+}
+
+.box-body p{
+    text-align: justify;
+}
+
+.navbar button{
+    position: relative;
+    top: 15px;
+    outline: none !important;
+    border: none  !important;
+}
+
+.navbar button:hover{
+    background-color: rgb(184, 184, 184);
+}
+
+.navbar-collapse{
+    margin-top: 40px;
+}
+
+.navbar{
+    padding: 0 !important;
+}
+
+.navbar-collapse ul{
+    margin-top: 9px;
+}
+
+.navbar-collapse ul li{
+    border: 1px solid black;
+    padding: 3px 20px;
+    z-index: 10;
+    background-color: antiquewhite;
+    
+}
+
+.navbar-collapse ul li a{
+    color: black;
+}
+
+.navbar-collapse ul li:hover{
+    background-color: rgb(136, 136, 136);
+}
